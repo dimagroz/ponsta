@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="/curr_css/test.css">
+        <script type = "module" src="/jsPopUps/popUpAdd.js" async></script> 
+    </head>
+   
+    <body spellcheck="false">
+        <a href="popUpMain.html"> <button id="goBack">Go back</button></a><br><br>
+        <span id = 'inputForm' class = 'formy' autocomplete="off">
+           
+            <label id="urlDesc" hidden></label>
+            <button id="setUrl" hidden>Use current Tab</button>
+            <br>
+            <span class ="link">
+                <label for="siteLink">url</label> <input class = "fill" type="text" id="siteLink" >
+                <br>
+            </span>
+            
+            <span class = "pons">
+                <label for="newPons">Names</label> <br>
+                <span class="nav">
+                    <input class = "fill" type="text" id="newPons">
+                    <span id = "chosenPons" class = "buttons listForm"></span>
+                    <ul id = "ponsLi" class = "navi" hidden></ul>
+                </span>
+                <br>
+            </span>
+            
+            <span class = "cats">
+                <label for="newCats">Catagories</label> <br>
+                <span class="nav">
+                    <input class = "fill" type="text" id="newCats">
+                    <span id = "chosenCats" class = "buttons listForm" ></span>
+                    <ul id = "catsLi" class = "navi" hidden></ul>
+                </span>
+                <br>
+            </span>
+            
+            <span class = "rating">
+                <label for="newRating">Rating</label> <input class = "fill rating" type="text" id="newRating"> <label for="newRating">/10</label>
+                <br>
+            </span>
+            
+            <span class="comment" >
+                <label for="NewComment">Description</label> <br> <input class = "fill comment" type="text" id="NewComment">
+            </span>
+            <br>
+            <button id="addLink" type="button">Add</button>
+            <button id="clearInputs" type="button">clear</button>
+
+            <span>
+                <p>&nbsp;</p>
+
+    
+            </span>
+
+        </span>
+        <div id = "hideElemWhole" class = "formy">
+            <div id="hideElem" >
+                <button type="button"></button><br>
+                <button type="button"></button><br>
+                <button type="button"></button><br>
+                <button type="button"></button><br>
+                <button type="button"></button><br>
+            </div>
+        </div>
+        
+   
+    </body>
+    <!-- this me commnet-->
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/curr_css/test.css">
+        <script type="module" src="/jsPopUps/popUpSettings.js" async></script> <!--defer-->
+    </head>
+
+    <body">
+
+    <label class = "bolden">Settings</label><br><br>
+
+
+    <a href="popUpMain.html"> <button id="goBack">Go back</button></a>
+    <br><br>
+
+    <a href="popUpRemove.html"><button >All Storage</button></a>&nbsp &nbsp
+
+    <button id="but1" type="button">Download All</button> &nbsp &nbsp
+    <a href="popUpReadMe.html"> <button id="readme">read me</button></a><br><br>
+    <input type="file" id = "ulfile"/>
+    <div id="upload">
+        <label id="upldLabel"></label>
+    </div>
+ 
+
+
+    <button id="but3" type="button" hidden>Print Storage</button>
+    <br/>
+
+    <label> <input type = "checkbox" id ="openPrivate">Open Incognito </label>
+    &nbsp;&nbsp;
+    <label> <input type = "checkbox" id ="closePrivate">close Incognito</label>
+   
+    <br>
+    <label><input type = "checkbox" id ="locSync" disabled> sync storage</label> <label>(currently disabled)</label>
+    <br><br>
+    <button id="pass" type="button"></button> <br>
+
+    <button id="passEdit" type="button" hidden>Change Password</button>
+    
+    <div id ="pswdInputs" hidden>
+        <input type="password" ><br>
+        <input type="password" ><br>
+        <button type="button">Set Password</button> <br>
+        <label id = "pswdLabel"></label>
+    </div>
+    </body>
+</html>

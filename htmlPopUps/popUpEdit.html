@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="/curr_css/test.css">
+        <script type = "module" src="/jsPopUps/popUpEdit.js" async></script> 
+    </head>
+   
+    <body spellcheck="false">
+        <div> 
+            <div id = 'inputForm2' autocomplete="off">
+                <div>
+                    <label class = "fill" id = "url"></label>
+                </div>
+
+                <div>
+                    <label for="newPons">edit Names</label> <br>
+                    <div class="nav pons">
+                        <input class = "fill" type="text" id="newPons">
+                        <div id = "chosenPons" class = "buttons listForm"></div>
+                        <ul id = "ponsLi" class = "navi" hidden></ul>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="newCats">edit Catagories</label> <br>
+                    <div class="nav cats">
+                        <input class = "fill" type="text" id="newCats">
+                        <div id = "chosenCats" class = "buttons listForm"></div>
+                        <ul id = "catsLi" class = "navi" hidden></ul>
+                    </div>
+                </div>
+                
+                <div>
+                    <label for="rating">edit Rating</label> <input class = "fill rating" type="text" id="rating" autocomplete="off">
+                </div>
+
+                <div>
+                    <label for="comment">edit Comment</label> <input class = "fill comment" type="text" autocomplete="off" id="comment" >
+                </div>
+
+            </div>
+        </div>
+            <br><br>
+            <button id="editForm">Save</button>
+            <button id="backToLinks">Cancel</button>
+        <div>
+            <br><br>
+            <button id="deleteForm">Remove</button>
+
+        </div>   
+    </body>
+    <!-- this me commnet, why e red-->
+</html>

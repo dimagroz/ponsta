@@ -1,0 +1,299 @@
+/*I know this is bad css- I plan on completely reduing all of it as well as the html*/
+
+body {
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    background: #f3f3f3;
+    overflow: auto;
+    /*overflow: hidden;*/
+    /*font-size: 100%;*/
+ }
+
+ .moveUp{
+    position: relative;
+    top: -1rem;
+ }
+
+
+
+
+ .bolden {
+    font-size:20px;
+    font-weight: bold;
+
+ }
+
+ .nav {
+    display: inline-block;  
+    position: relative;
+}
+
+.nav ul {
+    padding: 0px;
+    border: 1px solid #ccc;
+    display: none;
+    
+    background: #fff;
+    
+    list-style: none;
+    
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 90px;
+    max-height: 160px;
+    height: auto;
+    overflow: auto;
+    /*font-size: 100%;*/
+
+}
+.navi>*>* {
+    background-color: #4CAF50;
+    /*background-color: rgb(22, 112, 22); */
+    color: white;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+}
+
+.nav ul { /*.nav:hover*/
+    display: inline-block;
+    z-index: 1;
+}
+
+.allCats {
+    max-height: 400px;
+    overflow: auto;
+}
+
+.buttons {
+    list-style:none;
+}
+
+.list {
+    list-style:none;
+}
+
+#newCats, #newPons {
+    width: 60px;
+}
+
+.rating {
+    width: 20px;
+}
+.comment{
+    width: 100%;
+}
+
+#siteLink {
+    width: 85%;
+    font-size:12px;
+}
+
+
+.buttons{
+    display:inline-block;
+
+}
+
+.buttons>*{
+    border: none;
+    background: #f3f3f3;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*cursor: pointer;*/
+
+}
+
+
+
+.listForm>*{
+    padding: 0px 0px;
+    font-size: 11px;
+}
+
+#seekSkip>*{
+    padding: 2px 2px;
+    font-size: 12px;
+}
+
+#NewCommentfail {
+  border: 1px solid rgb(44, 41, 41);
+  font-family: inherit;
+  font-size: 13px;
+  padding: 5px 5px;
+}
+
+#NewComment {
+    display: block;
+    width: 90%;
+    resize: both;
+  }
+
+
+#NewCommentfail {
+    display: block;
+    width: 80%;
+    overflow: hidden;
+    resize: both;
+    min-height: 40px;
+    line-height: 15px;
+  }
+
+  .formy{
+    display: inline-block;
+    right: 1rem;
+    vertical-align: middle;
+  }
+
+  #inputForm{
+    width: 18rem;
+
+  }
+
+#hideElemWhole{
+    position: fixed;
+    top : 3rem;
+    right :1rem;
+}
+  
+  #hideElem>*{
+    border: none;
+    background-color: Transparent;
+    font-size: 11px;
+    padding: 0px 3px;
+    
+  }
+  
+  
+#hideElem>*:hover{
+    background-color:rgb(200, 209, 207)
+}
+
+.buttons2  > *{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 0px;
+    font-size: 11px;
+    /*cursor: pointer;*/
+    background-color: Transparent;
+}
+.fill {
+    display:inline-block;
+}
+
+footer{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
+
+
+.list {
+    display: inline-block;
+    padding-right: 1rem;
+    vertical-align: middle;
+  }
+
+.scroller{
+    height: 250px;
+    max-height: 250px;
+    overflow: auto;
+}
+
+#upload{
+    max-height: 5rem;;
+    overflow: auto;
+}
+
+
+#editElem{
+    position: absolute; /*or fixed*/
+    right: 5px;
+    bottom: -1rem;
+    border: 3px solid;
+    padding: 2px;
+    width: 12rem;
+    height: 7rem;
+}
+
+.ListLabel{
+    padding-right: 5px;
+}
+
+
+.ListButton{
+    border-top: none;
+    border-bottom: none;
+    border-right : none;
+    font-size: 11px;
+}
+
+#setUrl{
+    border:none;
+    font-size: 12px;
+
+}
+
+.ListButton:hover,#setUrl:hover{
+    text-decoration:underline;
+}
+
+.MainButs{
+    border: none;
+    background-color: Transparent;
+    font-size: 11px;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+}
+
+.MainButs:hover{
+    text-decoration:underline;
+}
+
+
+
+
+.descript{
+    border: none;
+    background-color: Transparent;
+
+}
+
+.descript:hover{
+    background-color:rgb(200, 209, 207)
+    
+}
+
+.leaveBut{
+    position: fixed;
+    top: 4px;
+    right: 4px;
+    border:none;
+    color: rgb(191, 140, 140);
+    background-color: transparent;
+
+}
+
+.leaveBut:hover{
+    background: rgb(226, 192, 187);
+}
+
+
+.buttons>*:hover{
+   /*background-color: rgb(226, 192, 187);*/
+    background-image: url("/images/x_imageResized.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+
+}
+
+
+/*cause I have to have this line*/
+[hidden] { display: none !important; }
