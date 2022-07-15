@@ -33,7 +33,7 @@ function makeInput(toDo,key,val){
     const makeFrom = {
         'get': s_key,
         'set' : {[s_key]: s_val},
-        'remove': s_key //fuck this shit.
+        'remove': s_key
     }
 
     return makeFrom[toDo];
